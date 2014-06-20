@@ -15,6 +15,7 @@
 		F385EDF31941AFAC006FDF3E /* thunderbird.png in Resources */ = {isa = PBXBuildFile; fileRef = F385EDF21941AFAC006FDF3E /* thunderbird.png */; };
 		F385EDF51941AFF8006FDF3E /* bg-space1.png in Resources */ = {isa = PBXBuildFile; fileRef = F385EDF41941AFF8006FDF3E /* bg-space1.png */; };
 		F385EDF71941B4FE006FDF3E /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = F385EDF61941B4FE006FDF3E /* marker.png */; };
+		F3FFB0AF195436A400DF91E9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFB0AE195436A400DF91E9 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F385EDF21941AFAC006FDF3E /* thunderbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thunderbird.png; path = ../../../Desktop/thunderbird.png; sourceTree = "<group>"; };
 		F385EDF41941AFF8006FDF3E /* bg-space1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-space1.png"; path = "../../../Desktop/bg-space1.png"; sourceTree = "<group>"; };
 		F385EDF61941B4FE006FDF3E /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = ../../../Desktop/marker.png; sourceTree = "<group>"; };
+		F3FFB0AE195436A400DF91E9 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		F385EDCE1941A90D006FDF3E /* protoType20140606 */ = {
 			isa = PBXGroup;
 			children = (
+				F3FFB0AE195436A400DF91E9 /* GameScene.swift */,
 				F385EDD11941A90D006FDF3E /* AppDelegate.swift */,
 				F385EDD31941A90D006FDF3E /* GameScene.sks */,
 				F385EDD71941A90D006FDF3E /* GameViewController.swift */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FFB0AF195436A400DF91E9 /* GameScene.swift in Sources */,
 				F385EDD81941A90D006FDF3E /* GameViewController.swift in Sources */,
 				F385EDD21941A90D006FDF3E /* AppDelegate.swift in Sources */,
 			);
@@ -340,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = protoType20140606/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = protoType20140606/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +417,7 @@
 				F385EDEE1941A90D006FDF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F385EDEF1941A90D006FDF3E /* Build configuration list for PBXNativeTarget "protoType20140606Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				F385EDF11941A90D006FDF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
